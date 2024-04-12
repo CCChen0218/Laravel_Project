@@ -1,0 +1,9 @@
+Lot,Process001_MachineNo,Process002_MachineNo,Process003_MachineNo,Process004_MachineNo,Process005_MachineNo,Final,TotalNum,BadNum,CurrentTotalNum
+Batch-13,MCH12,,,,,1,100,0,100
+Batch-13,MCH12,MCH54,,,,2,100,2,100
+Batch-13,MCH12,MCH54,MCH11,,,3,98,0,100
+Batch-13,MCH12,MCH54,MCH11,MCH68,,4,98,3,100
+Batch-13,MCH12,MCH54,MCH11,MCH68,MCH54,-1,95,1,100
+Batch-62,MCH54,,,,,1,500,0,500
+Batch-62,MCH54,MCH37,,,,2,500,5,500
+Batch-62,MCH54,MCH37,MCH94,,,-1,495,0,500
