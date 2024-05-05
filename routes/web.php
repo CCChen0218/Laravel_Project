@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\FileUploadController;
+use App\Http\Controllers\ChartController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -32,5 +33,7 @@ Route::middleware('auth')->group(function () {
 Route::post('/upload', [FileUploadController::class, 'upload'])->name('upload');
 
 Route::post('/process', [FileUploadController::class, 'process'])->name('process');
+
+Route::get('/LineChart', [ChartController::class, 'LineChart'])->name('LineChart');;
 
 require __DIR__.'/auth.php';

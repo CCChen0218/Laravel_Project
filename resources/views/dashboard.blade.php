@@ -20,6 +20,7 @@
                         <span id="file-name">No file chosen</span>
                         <button type="submit" class="btn btn-outline-primary">Upload</button>
                         <button type="button" id="process-btn" class="btn btn-outline-primary">Process</button>
+                        <button type="button" id="show-chart-btn" class="btn btn-outline-primary" onclick="window.location.href='{{ route('LineChart') }}'">Chart</button>
                         <style>
                             .btn-outline-primary {
                                 background-color: #007bff;
@@ -83,6 +84,7 @@
                 })
                 .catch(error => console.error('Error:', error));
             });
+
         });
     </script>
 </x-app-layout>
